@@ -1,0 +1,33 @@
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    text-align: center;
+}
+
+// 각 섹션 공통 요소
+section {
+    padding: 40px;
+
+    @media (max-width: 800px) {
+        padding: 20px;
+    }
+}
+
+
+// 로딩 소스
+.isLoading {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.isLoaded {
+    opacity: 1;
+    transition: opacity 0.5s;
+}

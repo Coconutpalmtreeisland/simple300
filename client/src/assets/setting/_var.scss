@@ -1,0 +1,41 @@
+:root {
+    --mainfont-Neo: "nanumSquareNeo";
+    --pointfont-museum: "museumClassic";
+
+    --black: #000;
+    --black100: #313131;
+    --black200: #494949;
+    --black300: #686868;
+    --black400: #8b8b8b;
+    --black500: #b8b8b8;
+    --black600: #dbdbdb;
+
+    --white: #fff;
+    --white100: #e9e9e9;
+    --white200: #d4d4d4;
+    --white300: #bdbdbd;
+    --white400: #aaaaaa;
+    --white500: #8d8d8d;
+    --white500: #9e9e9e;
+
+    --point-color: rgb(87, 14, 14);
+    --point-Lcolor: rgb(170, 61, 61);
+
+    // 폰트 셋팅
+    font-family: var(--mainfont-Neo), var(--pointfont-museum);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    // 폰트 최적화
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    @media (max-width: 800px) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

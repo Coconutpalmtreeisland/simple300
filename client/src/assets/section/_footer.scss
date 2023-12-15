@@ -1,0 +1,15 @@
+#footer {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+    a {
+        color: var(--black200);
+        padding: 10px 20px;
+        display: inline-block;
+
+        &:hover {
+            @include underline;
+            text-decoration-color: var(--black200);
+        }
+    }
+}

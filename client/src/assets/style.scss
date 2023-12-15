@@ -6,3 +6,10 @@
 @import "setting/common";
 @import "setting/mixin";
 @import "setting/var";
+
+// section
+@import "section/header";
+@import "section/footer";
+@import "section/login";
+@import "section/list";
+@import "section/detail";
